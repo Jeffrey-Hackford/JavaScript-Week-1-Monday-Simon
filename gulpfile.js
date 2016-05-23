@@ -43,5 +43,5 @@ gulp.task('build', ['clean'], function() {
 gulp.task('jshint', function() {
   return gulp.src(['js/*.js'])
     .pipe(jshint())
-    .pipe(jshint.reporter('defalut'));
+    .pipe(jshint.reporter('default'));
 })

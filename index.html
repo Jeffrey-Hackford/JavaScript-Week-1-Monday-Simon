@@ -3,6 +3,7 @@
   <head>
     <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.6/css/bootstrap.min.css" integrity="sha384-1q8mTJOASx8j1Au+a5WDVnPi2lkFfwwEAa8hDDdjZlpLegxhjVME1fgjWPGmkzs7" crossorigin="anonymous">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/1.12.0/jquery.min.js"></script>
+    <script src="build/js/app.js"></script>
 
     <title>Simon</title>
   </head>
@@ -14,10 +15,12 @@
       </div>
     </div>
     <div class="container color">
-      <img class="value" id="blue" src="img/blue.png" alt="blue">
-      <img class="value" id="red" src="img/red.png" alt="red">
-      <img class="value" id="yellow" src="img/yellow.png" alt="yellow">
-      <img class="value" id="green" src="img/green.png" alt="green">
+      <img class="value" id="blue" src="img/blue.png" alt="blue" value="blue">
+      <img class="value" id="red" src="img/red.png" alt="red" value="red">
+      <img class="value" id="yellow" src="img/yellow.png" alt="yellow" value="yellow">
+      <img class="value" id="green" src="img/green.png" alt="green" value="green">
+      <a class="btn btn-default" id="submit">Submit</a>
     </div>
+    <div id="correct"></div>
   </body>
 </html>
